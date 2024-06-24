@@ -1,2 +1,4 @@
 # days-between
 Finds the days between two dates.
+
+The main function, count_days, takes two tuples as arguments, each with three integers. They represent the year, month, and day, respectively. A separate function verifies that the numbers are all integers, the month number is between 1 and 12, and the day number is between 1 and its month’s maximum number. Leap years were considered through another function named is_leap_year. Then it slices the tuples, comparing them to check if the dates were in the same month and year. If they were, then the difference in the days was returned; otherwise, the function moved on to other cases. The number of days in months completely between the two dates, the days in the starting month that occur after the starting day, and the days in the ending month that occur after the ending day were added to the variable count.
